@@ -10,7 +10,6 @@ Systems generalist based in Japan. I build tools for problems I actually run int
 | **[RakuPrints](https://github.com/sukun-inu/RakuPrints)** | Batch printing for Windows. Replaced a manual workflow of ~170 documents/day taking 50+ minutes with one taking about 5. In daily production use. |
 | **[VRC-Streaming](https://github.com/sukun-inu/VRC-Streaming)** | Self-hosted RTMP-to-HLS server for VRChat. Per-room dynamic keys, simultaneous PC/Quest playback. mediamtx + nginx + Docker Compose. |
 | **[DEB64-AutoUpdate](https://github.com/sukun-inu/DEB64-AutoUpdate-Discord-Webhook)** | Unattended APT maintenance with Discord reporting. systemd timers, kernel-aware reboots, Ansible cluster rollout. |
-| **[OSX-tts.api.server](https://github.com/sukun-inu/OSX-tts.api.server)** | TTS API server on the macOS `say` command. FastAPI, TTL-based cleanup, runs as a LaunchDaemon. |
 
 ### How I work
 
