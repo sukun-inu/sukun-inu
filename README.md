@@ -1,22 +1,29 @@
 ## H. Suzuki
 
-Systems generalist based in Japan. I build tools for problems I actually run into, and I keep the measurements.
+I find problems worth solving, write the specification, and ship the tool that fixes them. Based in Japan.
 
-### Selected work
+### Built and running
 
 | Project | |
 |---|---|
-| **[OpenSiteSurvey](https://github.com/sukun-inu/OpenSiteSurvey)** | Wi-Fi site survey and monitoring for Windows. JavaFX + Native WiFi API via JNA. Heatmap interpolation (IDW / Kriging / Natural Neighbor), Wi-Fi 7 MLO detection, channel planning, headless CLI. |
-| **[RakuPrints](https://github.com/sukun-inu/RakuPrints)** | Batch printing for Windows. Replaced a manual workflow of ~170 documents/day taking 50+ minutes with one taking about 5. In daily production use. |
-| **[VRC-Streaming](https://github.com/sukun-inu/VRC-Streaming)** | Self-hosted RTMP-to-HLS server for VRChat. Per-room dynamic keys, simultaneous PC/Quest playback. mediamtx + nginx + Docker Compose. |
-| **[DEB64-AutoUpdate](https://github.com/sukun-inu/DEB64-AutoUpdate-Discord-Webhook)** | Unattended APT maintenance with Discord reporting. systemd timers, kernel-aware reboots, Ansible cluster rollout. |
+| **[RakuPrints](https://github.com/sukun-inu/RakuPrints)** | Batch printing for Windows. Replaced a 50-minute daily task at a car dealership with a 5-minute one. In daily production use. |
+| **[OpenSiteSurvey](https://github.com/sukun-inu/OpenSiteSurvey)** | Finds the weak Wi-Fi spots in a building and paints them onto a floor plan. |
+| **[VRC-Streaming](https://github.com/sukun-inu/VRC-Streaming)** | Self-hosted server for playing your own video inside VRChat, on PC and Quest at once. |
+| **[DEB64-AutoUpdate](https://github.com/sukun-inu/DEB64-AutoUpdate-Discord-Webhook)** | Keeps Linux servers updated on their own and reports the result to Discord. |
 
-### How I work
+### How these are made
 
-Establish the metric before touching the tuning. Separate the configuration layers that actually have effect from the ones that are placebo. Record falsified hypotheses alongside confirmed ones — including my own, when the data contradicts them.
+The code in these repositories is written by language models. What is mine is deciding
+what should exist, writing the specification, and judging whether what came back is
+right — then sending it back until it is.
 
-### Stack
+I spend the time up front rather than on debugging. A machine does what the instructions
+say, so most failures are contradictions that can be removed before anything is built.
 
-`Java (JavaFX)` `Python (FastAPI, PySide6)` `Shell` `Docker / Compose` `Proxmox` `Ansible` `systemd` `SQLite` `Windows internals (Win32 / WMI / JNA)` `Android (adb)`
+I am not a programmer. I do not write code from scratch and I do not debug it.
+
+### What these projects run on
+
+`Java (JavaFX)` `Python (FastAPI, PySide6)` `Shell` `Docker / Compose` `Proxmox` `Ansible` `systemd` `SQLite` `Windows` `Android`
 
 Japanese native. Technical English.
